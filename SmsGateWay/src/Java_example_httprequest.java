@@ -9,7 +9,7 @@ public class Java_example_httprequest {
                         String username = "admin";
                         String password = "@Ozeki123@";
                         String originator = "9985788526";
-
+System.out.println("");
                         String requestUrl  = "http://127.0.0.1:9501/api?action=sendmessage&" +
             "username=" + URLEncoder.encode(username, "UTF-8") +
             "&password=" + URLEncoder.encode(password, "UTF-8") +
