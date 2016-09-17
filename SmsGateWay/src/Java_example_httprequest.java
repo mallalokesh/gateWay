@@ -4,11 +4,11 @@ public class Java_example_httprequest {
 
         public static void main(String[] args) {
                 try {
-                        String recipient = "9840514538";
+                        String recipient = "123";
                         String message = "Hello World";
                         String username = "admin";
                         String password = "@Ozeki123@";
-                        String originator = "9985788526";
+                        String originator = "456";
 System.out.println("");
                         String requestUrl  = "http://127.0.0.1:9501/api?action=sendmessage&" +
             "username=" + URLEncoder.encode(username, "UTF-8") +
